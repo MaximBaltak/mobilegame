@@ -1,0 +1,171 @@
+body {
+    min-height: 1000px;
+    min-width: 1000px;
+    background: linear-gradient(to top, #006b60,#149484);
+}
+.map{
+    position: relative;    
+    margin: 0 auto;
+    background: url('../image/map.png') center center/cover no-repeat;
+    height: 605px;
+    width: 980px;
+}
+.map .ladder{
+    display: block;
+    position: absolute;
+    transform: translate(389px, 453px);
+}
+.map .flower{
+    display: block;
+    position: absolute;
+    transform: translate(362px, 470px);
+}
+.map .way{
+    display: block;
+    position: absolute;
+    transform: translate(80px, 21px);
+}
+.map .button{
+    position: relative;
+    margin: 0 auto;
+}
+.map .button .button_noactive{
+    width: 39px;
+    height: 30px;
+    background:url('../icons/button.png') center center/cover no-repeat;
+    background-size: 30px 25px;
+    position: absolute;
+    outline: none;
+    border: none;
+    transform: translate(430px, 497px);
+}
+.map .button .position2{
+    
+    transform: translate(334px, 463px);
+}
+.map .button .position3{
+    
+    transform: translate(245px, 514px);
+}
+.map .button .position4{
+
+    transform: translate(169px, 524px);
+    
+}
+.map .button .position5{
+    
+    transform: translate(91px, 493px);
+}
+.map .button .position6{
+
+    transform: translate(106px, 430px);
+    
+}
+.map .button .position7{
+
+    transform: translate(106px, 430px);
+
+    
+}
+.map .button .position8{
+
+    transform: translate(106px, 430px);
+}
+.map .button .position9{
+
+    transform: translate(162px, 268px);
+}
+.map .button .position10{
+    
+    transform: translate(115px, 216px);
+}
+.map .button .position11{
+    transform: translate(183px, 183px);
+    
+}
+.map .button .position12{
+
+    transform: translate(240px, 229px);
+    
+}
+.map .button .position13{
+
+    transform: translate(282px, 197px);
+    
+}
+.map .button .position14{
+
+    transform: translate(312px, 143px);
+    
+}
+.map .button .position15{
+
+    transform: translate(359px, 89px);
+}
+.map .button .position16{
+
+    transform: translate(402px, 27px);
+    
+}
+.map .button .position17{
+
+    transform: translate(486px, 63px);
+    
+}
+.map .button .position18{
+
+    transform: translate(449px, 135px);
+    
+}
+.map .button .position19{
+
+    transform: translate(478px, 200px);
+    
+}
+.map .button .position20{
+
+    transform: translate(437px, 292px);
+}
+.map .button .position21{
+
+    transform: translate(371px, 334px);
+}
+.map .button .position22{
+
+    transform: translate(353px, 392px);
+}
+.map .button .position23{
+
+    transform: translate(437px, 415px);
+}
+.map .button .position24{
+
+    transform: translate(501px, 449px);
+}
+.map .button .position25{
+
+    transform: translate(609px, 482px);
+}
+.map .button .position26{
+
+    transform: translate(703px, 508px);
+}
+.map .button .position27{
+
+    transform: translate(795px, 457px);
+}
+.map .button .position28{
+
+    transform: translate(873px, 408px);
+}
+.map .button .position29{
+
+    transform: translate(942px, 362px);
+}
+.map .button .position30{
+
+    transform: translate(943px, 300px);
+    
+}
+
+    
