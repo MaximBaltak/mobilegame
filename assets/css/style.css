@@ -1,3 +1,4 @@
+
 body {
     min-height: 1000px;
     min-width: 1000px;
@@ -33,11 +34,15 @@ body {
     width: 39px;
     height: 30px;
     background:url('../icons/button.png') center center/cover no-repeat;
-    background-size: 30px 25px;
+    background-size: 21px 17px;
     position: absolute;
     outline: none;
     border: none;
-    transform: translate(430px, 497px);
+    transform: translate(426px, 491px);
+}
+.map .button .position1{
+    background:url('../icons/red.png') center center/cover no-repeat;
+    background-size: 38px 34px;
 }
 .map .button .position2{
     
@@ -58,10 +63,12 @@ body {
 }
 .map .button .position6{
 
-    transform: translate(106px, 430px);
+    transform: translate(119px, 377px);
     
 }
 .map .button .position7{
+    background:url('../icons/button_red.png') center center/cover no-repeat;
+    background-size: 21px 17px;
 
     transform: translate(106px, 430px);
 
@@ -69,7 +76,7 @@ body {
 }
 .map .button .position8{
 
-    transform: translate(106px, 430px);
+transform: translate(210px, 331px);
 }
 .map .button .position9{
 
@@ -80,6 +87,8 @@ body {
     transform: translate(115px, 216px);
 }
 .map .button .position11{
+    background:url('../icons/button_red.png') center center/cover no-repeat;
+    background-size: 21px 17px;
     transform: translate(183px, 183px);
     
 }
@@ -103,7 +112,8 @@ body {
     transform: translate(359px, 89px);
 }
 .map .button .position16{
-
+    background:url('../icons/button_red.png') center center/cover no-repeat;
+    background-size: 21px 17px;
     transform: translate(402px, 27px);
     
 }
@@ -123,6 +133,8 @@ body {
     
 }
 .map .button .position20{
+    background:url('../icons/button_red.png') center center/cover no-repeat;
+    background-size: 21px 17px;
 
     transform: translate(437px, 292px);
 }
@@ -143,6 +155,8 @@ body {
     transform: translate(501px, 449px);
 }
 .map .button .position25{
+    background:url('../icons/button_red.png') center center/cover no-repeat;
+    background-size: 21px 17px;
 
     transform: translate(609px, 482px);
 }
@@ -163,9 +177,137 @@ body {
     transform: translate(942px, 362px);
 }
 .map .button .position30{
+    background:url('../icons/button_red.png') center center/cover no-repeat;
+    background-size: 21px 17px;
 
     transform: translate(943px, 300px);
     
 }
+.map .button .position31{
 
+    transform: translate(871px, 280px);
+    
+}
+.map .button .position32{
+
+    transform: translate(830px, 309px);
+    
+}
+.map .button .position33{
+
+    transform: translate(771px, 344px);
+    
+}
+.map .button .position34{
+
+    transform: translate(696px, 333px);
+    
+}
+.map .button .position35{
+
+    transform: translate(703px, 284px);
+    
+}
+.map .button .position36{
+    background:url('../icons/button_red.png') center center/cover no-repeat;
+    background-size: 21px 17px;
+
+    transform: translate(783px, 242px);
+    
+}
+.map .button .position37{
+
+    transform: translate(786px, 175px);
+    
+}
+.map .button .position38{
+
+    transform: translate(723px, 170px);
+    
+}
+.map .button .position39{
+
+    transform: translate(619px, 223px);
+    
+}
+.map .button .position40{
+
+    transform: translate(607px, 260px);
+}
+.map .button .position41{
+
+    
+    transform: translate(568px, 289px);
+}
+.map .button .position42{
+    background:url('../icons/button_red.png') center center/cover no-repeat;
+    background-size: 21px 17px;
+    transform: translate(511px, 280px);
+}
+.map .button .position43{
+
+    transform: translate(502px, 195px);
+}
+.map .button .position44{
+
+    transform: translate(532px, 154px);
+}
+.map .button .position45{
+
+    transform: translate(573px, 127px);
+}
+.map .button .position46{
+
+    transform: translate(601px, 74px);
+}
+.map .button .position47{
+     background:url('../icons/button_red.png') center center/cover no-repeat;
+    background-size: 21px 17px;
+    transform: translate(636px, 16px);
+}
+.map .button .position48{
+
+    transform: translate(683px, 50px);
+}
+.map .button .position49{
+
+    transform: translate(657px, 124px);
+}
+.map .button .position50{
+
+    transform: translate(742px, 70px);
+}
+.map .button .position51{
+
+    transform: translate(806px, 126px);
+}
+.map .button .position52{
+
+    transform: translate(862px, 92px);
+}
+.map .button .position53{
+    background:url('../icons/blue.png') center center/cover no-repeat;
+    background-size: 37px 36px;
+    transform: translate(867px, 159px);
+}
+.map .button .male{
+    position: absolute;
+    z-index: 1;
+    transform: translate(435px, 441px);
+}
+.map .button .first{
+    position: absolute;
+    width: 161px;
+    font-family: 'a_stamper-bold', Arial;
+    font-size: 18px;
+    font-weight: 900;
+    text-align: center;
+    color: red;
+    transform: translate(362px, 495px) rotateX(45deg) rotate(-37deg);
+    
+}
+.map .button .blue{
+    color:#377895;
+    transform: translate(835px, 145px) rotateX(45deg) rotate(-37deg);
+}
     
