@@ -1,5 +1,6 @@
 
 body {
+    position: relative;
     min-height: 1000px;
     min-width: 1000px;
     background: linear-gradient(to top, #006b60,#149484);

@@ -1,0 +1,74 @@
+.overlay{
+    position: absolute;
+    top:  0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    background-color: rgba(0,0,0, 0.5);
+    z-index: 20;
+}
+.overlay .window{
+    position: fixed;
+    top: 29%;
+    left: 33%;
+    width: 523px;
+    height: 455px;
+    background: radial-gradient(#c3894b , #9f6c35);
+    border: solid 5px #875c2d;
+    border-radius: 20px;
+
+}
+.overlay .window .list{
+    position: relative;
+    width: 264px;
+    height: 33px;
+    border: 5px ridge #61bfcc;
+    border-radius: 20px;
+    background: linear-gradient(to top, #105a66, #20b5ce );
+    text-align: center;
+    font-family: 'a_stamper-bold', Arial;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    color: #ffff;
+    transform: translate(125px, -17px);
+}
+.overlay .window .out{
+    position: relative;
+    width: 26px;
+    height: 26px;
+    border: 2px ridge #61bfcc;
+    border-radius: 5px;
+    background: linear-gradient(to top, #105a66, #20b5ce,  #105a66 );
+    transform: translate(482px, -30px);
+
+}
+.overlay .window .out::before{
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 6px;
+    height: 18px;
+    background-color: white;
+    margin-top: 5px;
+    transform: rotate(45deg);
+}
+.overlay .window .out::after{
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 6px;
+    height: 18px;
+    background-color: white;
+    margin-top: -18px;
+    transform: rotate(136deg);
+}
+.overlay .window .list_raiting{
+    width: 464px;
+    height: 324px;
+    margin: 0 auto;
+    background-color:#8c5a31;
+    margin-top: 25px;
+    border-radius: 23px;
+}
