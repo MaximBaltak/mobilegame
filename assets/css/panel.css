@@ -33,7 +33,11 @@
     border: 2px ridge #bf4b15;
     border-radius: 5px;
 }
+.panel .slider .content .a{
+    display: none;
+}
 .panel .slider .content .dirs .plus{
+    display: none;
     position: absolute;
     width: 15px;
     height: 15px;

@@ -1,4 +1,5 @@
 .overlay{
+    display: none;
     position: absolute;
     top:  0;
     right: 0;
@@ -23,7 +24,7 @@
     position: relative;
     width: 264px;
     height: 33px;
-    border: 5px ridge #61bfcc;
+    border: 2px ridge #61bfcc;
     border-radius: 20px;
     background: linear-gradient(to top, #105a66, #20b5ce );
     text-align: center;
@@ -38,7 +39,7 @@
     position: relative;
     width: 26px;
     height: 26px;
-    border: 2px ridge #61bfcc;
+    border: 1px ridge #61bfcc;
     border-radius: 5px;
     background: linear-gradient(to top, #105a66, #20b5ce,  #105a66 );
     transform: translate(482px, -30px);
@@ -71,4 +72,72 @@
     background-color:#8c5a31;
     margin-top: 25px;
     border-radius: 23px;
+    padding-top: 17px;
 }
+.overlay .window .list_raiting .list_title{
+    display: flex;
+    width: 403px;
+    height: 29px;
+    margin: 0 auto;
+    border: 1px ridge #61bfcc;
+    border-radius: 20px;
+    background: linear-gradient(to top, #105a66, #20b5ce );
+
+}
+.overlay .window .list_raiting .list_title p{
+    text-align: center;
+    font-family: 'a_stamper-bold', Arial;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    color: #ffff;
+    margin: auto;
+}
+.overlay .window .list_raiting .list_dirs {
+    list-style-type: none;
+    padding-left: 0;
+}
+.overlay .window .list_raiting .list_dirs li {
+    display:flex;
+    justify-content: space-between;
+    width: 403px;
+    height: 29px;
+    margin: 0 auto;
+    border: 1px ridge #61bfcc;
+    border-radius: 20px;
+    background: linear-gradient(to top, #105a66, #20b5ce );
+    margin-top: 6px;
+}
+.overlay .window .list_raiting .list_dirs .place {
+    width: 55px;
+    height: 29px;
+    border:none;
+    outline: none;
+    background: none;
+    font-family: 'a_stamper-bold', Arial;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    color: #ffff;
+}
+.overlay .window .list_raiting .list_dirs .icon{
+    width: 25px;
+    height: 25px;
+    background: linear-gradient(to top,#bf4b15,#893a12, #bf4b15);
+    border: 1px ridge #bf4b15;
+    border-radius: 5px;
+}
+.overlay .window .list_raiting .list_dirs .d {
+    width: 200px;
+    height: 29px;
+    border:none;
+    outline: none;
+    background: none;
+    font-family: 'a_stamper-bold', Arial;
+    font-size: 14px;
+    font-weight: 700;
+    color: #ffff;
+    text-align: left;
+}
+
+
