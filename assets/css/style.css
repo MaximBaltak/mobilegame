@@ -295,6 +295,7 @@ transform: translate(210px, 331px);
     position: absolute;
     z-index: 1;
     transform: translate(435px, 441px);
+    transition: 1s;
 }
 .map .button .first{
     position: absolute;

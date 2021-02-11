@@ -8,16 +8,19 @@
     height: 100%;
     background-color: rgba(0,0,0, 0.5);
     z-index: 20;
+    opacity: 0.0;
+    transition: 0.5s;
 }
 .overlay .window{
     position: fixed;
-    top: 29%;
+    top: -48%;
     left: 33%;
     width: 523px;
     height: 455px;
     background: radial-gradient(#c3894b , #9f6c35);
     border: solid 5px #875c2d;
     border-radius: 20px;
+    transition: 5s;
 
 }
 .overlay .window .list{
@@ -127,6 +130,9 @@
     border: 1px ridge #bf4b15;
     border-radius: 5px;
 }
+.overlay .window .list_raiting .list_dirs .icon .male{
+    width: 25px;
+}
 .overlay .window .list_raiting .list_dirs .d {
     width: 200px;
     height: 29px;
@@ -141,3 +147,19 @@
 }
 
 
+@keyframes window{
+    0% {top: -48%;}
+    100% {top: 29%}
+}
+@keyframes overlay{
+    0% {opacity: 0.0;}
+    100% {opacity: 1.0} ;
+}
+@keyframes windowr{
+    0% {top: 29%;}
+    100% {top: -48%}
+}
+@keyframes overlayr{
+    0% {opacity: 1.0;}
+    100% {opacity: 0.0;} ;
+}
