@@ -135,10 +135,10 @@ document.addEventListener("DOMContentLoaded",() =>{
         });
 
     male.addEventListener('mouseover',()=>{
-        male.style.transform = 'translate(435px, 430px)';
+        male.style.top='-5px';
     });
     male.addEventListener('mouseout',()=>{
-        male.style.transform = 'translate(435px, 441px)';
+        male.style.top ='0px';
     })
     rating.addEventListener('click',()=>{
         overlay.style.display= 'block';
@@ -249,13 +249,13 @@ document.addEventListener("DOMContentLoaded",() =>{
                }
 
                univer.addEventListener('click',()=>{
-                   if (male.style.animation ='animation 20s linear paused backwards') {
-                        male.style.animation ='animation 20s linear running backwards';
+                   if (male.style.animation ='animation 18s infinite linear paused backwards') {
+                        male.style.animation ='animation 18s infinite linear running backwards';
                    }
-                   setTimeout(()=>{male.style.animation ='animation 20s linear paused backwards'},260);
+                   setTimeout(()=>{male.style.animation ='animation 18s infinite linear paused backwards'},374);
                });
                
-  
+               
             
                 
                 
