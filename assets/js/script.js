@@ -247,6 +247,14 @@ document.addEventListener("DOMContentLoaded",() =>{
                }else{
                xp[6].value = seven.points;
                }
+
+               univer.addEventListener('click',()=>{
+                   if (male.style.animation ='animation 20s linear paused backwards') {
+                        male.style.animation ='animation 20s linear running backwards';
+                   }
+                   setTimeout(()=>{male.style.animation ='animation 20s linear paused backwards'},260);
+               });
+               
   
             
                 

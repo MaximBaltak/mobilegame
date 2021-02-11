@@ -296,6 +296,7 @@ transform: translate(210px, 331px);
     z-index: 1;
     transform: translate(435px, 441px);
     transition: 1s;
+    animation: animation 20s linear paused forwards;
 }
 .map .button .first{
     position: absolute;
@@ -313,3 +314,59 @@ transform: translate(210px, 331px);
     transform: translate(835px, 145px) rotateX(45deg) rotate(-37deg);
 }
     
+@keyframes animation{
+    0%{ transform: translate(435px, 441px);}
+    2%{transform: translate(343px, 414px);}
+    3%{transform: translate(253px, 464px);}
+    4%{transform: translate(178px, 472px);}
+    5%{transform: translate(98px, 442px);}
+    6%{transform: translate(115px, 381px);}
+    7%{transform: translate(125px, 321px);}
+    8%{ transform: translate(215px, 281px)}
+    9%{transform: translate(169px, 215px);}
+    10%{transform: translate(124px, 165px)}
+    11%{transform: translate(192px, 135px);}
+    12%{transform: translate(248px, 175px);}
+    13%{transform: translate(248px, 175px);}
+    14%{transform: translate(320px, 95px);}
+    15%{transform: translate(320px, 95px);}
+    16%{ transform: translate(367px, 35px);}
+    17%{transform: translate(412px, 0px);}
+    18%{transform: translate(494px, 11px);}
+    19%{transform: translate(457px, 84px);}
+    20%{transform: translate(487px, 149px);}
+    21%{transform: translate(447px, 239px);}
+    22%{transform: translate(379px, 283px);}
+    23%{ transform: translate(361px, 344px);}
+    24%{transform: translate(446px, 364px);}
+    25%{transform: translate(510px, 396px);}
+    26%{  transform: translate(618px, 430px);}
+    27%{transform: translate(711px, 458px);}
+    28%{  transform: translate(804px, 403px);}
+    29%{transform: translate(882px, 353px);}
+    30%{ transform: translate(950px, 313px);}
+    31%{transform: translate(952px, 253px)}
+    32%{transform: translate(880px, 231px);}
+    33%{transform: translate(839px, 261px);}
+    34%{transform: translate(780px, 291px);}
+    35%{transform: translate(704px, 283px);}
+    36%{transform: translate(711px, 233px);}
+    37%{transform: translate(791px, 193px);}
+    38%{transform: translate(794px, 123px);}
+    39%{transform: translate(731px, 116px);}
+    40%{transform: translate(628px, 172px);}
+    50%{transform: translate(615px, 212px);}
+    55%{ transform: translate(575px, 235px);}
+    60%{  transform: translate(575px, 235px);}
+    65%{transform: translate(511px, 142px)}
+    70%{ transform: translate(541px, 102px);}
+    75%{transform: translate(583px, 75px);}
+    80%{transform: translate(610px, 25px);}
+    82%{transform: translate(645px, 0px);}
+    84%{transform: translate(692px, 0px);}
+    86%{transform: translate(666px, 70px);}
+    90%{ transform: translate(750px, 20px);}
+    92%{transform: translate(815px, 74px);}
+    95%{transform: translate(870px, 44px);}
+    100%{transform: translate(876px, 107px);}
+}   
