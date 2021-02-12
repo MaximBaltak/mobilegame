@@ -247,12 +247,19 @@ document.addEventListener("DOMContentLoaded",() =>{
                }else{
                xp[6].value = seven.points;
                }
+               let id = 0;
 
                univer.addEventListener('click',()=>{
-                   if (male.style.animation ='animation 18s infinite linear paused backwards') {
-                        male.style.animation ='animation 18s infinite linear running backwards';
+                   if (male.style.animation ='animation 18s  cubic-bezier(0.0, 0.5, 0.5 ,1.0) paused  both') {
+                        male.style.animation ='animation 18s  cubic-bezier(0.0, 0.5, 0.5 ,1.0) running  both';
                    }
-                   setTimeout(()=>{male.style.animation ='animation 18s infinite linear paused backwards'},374);
+                   setTimeout(()=>{male.style.animation ='animation 18s  cubic-bezier(0.0, 0.5, 0.5 ,1.0) paused  both'},330);
+                   if(id >=51){
+                    male.style.animation ='none';
+                    id =0;
+                   }else{
+                   id++;
+                   }
                });
                
                
